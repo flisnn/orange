@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+.logo1{
+    height: 25px;
+    width: 293px;
+}
+header{
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 479px;
+    justify-content: center;
+}
+.headbuttons{
+    display: flex;
+    gap: 42px;
+    align-items: center;
+}
+.headbutton{
+    width: 207px;
+    height: 61px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 21px;
+    letter-spacing: 0.5px;
+}
+.thin{
+    font-size: 19px;
+    line-height: 27px;
+    letter-spacing: 3px;
+}
+.firstpage{
+    display: flex;
+    background-color: #ECE7E4;
+    height: 960px;
+    padding-left: 133px;
+    align-items: center;
+}
+.firsttitle{
+    font-size: 85px;
+    line-height: 94px;
+    color: #1B1A1A;
+    padding-top: 26px;
+}
+.firstmain{
+    width: 679px;
+    font-size: 21px;
+    line-height: 32px;
+    color: #403E3B;
+    padding-top: 24px;
+}
+.firstbutton{
+    width: 177px;
+    height: 61px;
+    color: #1B1A1A;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    background-color: #ECE7E4;
+    padding-top: 40px;
+}
+.secondpage{
+    padding: 133px 448px;
+    display: flex;
+    height: 776px;
+    justify-content: space-between;
+}
+.firm{
+    color: #403E3B;
+    font-size: 43px;
+    line-height: 51px;
+}
+.secondmain{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.repeat{
+    color: #403E3B;
+    font-size: 21px;
+    line-height: 32px;
+    width: 655px;
+}
+.acc{
+    display: flex;
+    width: 373px;
+    height: 133px;
+    gap: 40px;
+    align-items: center;
+}
+.accname{
+    color: #1B1A1A;
+    font-size: 23px;
+    line-height: 35px;
+}
+.accpost{
+    margin-top: -5px;
+    color: #645C55;
+    font-size: 19px;
+    line-height: 19px;
+}
+.thirdpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding-right: 100px;
+    height: 800px;
+    background-image: url("./img/thirdpage.png");
+}
+.thirdfiveseventext{
+    font-size: 21px;
+    line-height: 32px;
+    color: #645C55;
+    width: 380px;
+}
+.fourthpage{
+    display: flex;
+    flex-direction: column;
+    height: 775px;
+    align-items: center;
+    justify-content: center;
+}
+.howwe{
+    font-size: 52px;
+    line-height: 56px;
+    color: #1B1A1A;
+    padding: 17px 0 63px;
+}
+.blocks{
+    display: flex;
+    flex-direction: row;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 505px;
+    height: 345px;
+}
+.fourimg{
+    width: 156px;
+    height: 136px;
+}
+.fourthtitle{
+    font-size: 23px;
+    line-height: 35px;
+    color: #403E3B;
+    text-align: center;
+    padding: 20px 0 13px;
+}
+.fourthtext{
+    width: 389px;
+    font-size: 21px;
+    line-height: 32px;
+    color: #645C55;
+    text-align: center;
+}
+.fifthpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding-right: 100px;
+    height: 800px;
+    background-image: url("./img/fifthpage.png");
+}
+.sixthpage{
+    display: flex;
+    height: 547px;
+    background-color:#403E3B;
+    align-items: center;
+    justify-content: center;
+}
+.sixtext{
+    width: 601px;
+}
+.happy{
+    font-size: 43px;
+    line-height: 51px;
+    color: #FFFFFF;
+    margin-top: -5px;
+    margin-bottom: 18px;
+}
+.sixmain{
+    font-size: 20px;
+    line-height: 32px;
+    color: #ECE7E4;
+}
+.siximg{
+    width: 576px;
+    height: 387px;
+    padding: 0 192px 0 176px;
+}
+.seventhpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 80px;
+    height: 800px;
+    background-image: url("./img/seventhpage.png");
+}
+.eightpage{
+    display: flex;
+    height: 1224px;
+    flex-direction: column;
+    background-color: #F7F7F7;
+    align-items: center;
+    justify-content: center;
+}
+.eighttitle{
+    font-size: 52px;
+    line-height: 56px;
+    color: #1B1A1A;
+    padding-right: 1110px;
+}
+.eighttext{
+    font-size: 32px;
+    line-height: 40px;
+    color: #645C55;
+    padding-top: 20px;
+    width: 774px;
+    padding-right: 804px;
+}
+.newyorkblocks{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding: 53px 0;
+}
+.newyork1{
+    width: 447px;
+    height: 555px;
+    padding-top: 53px;
+    padding-left: 53px;
+    background-image: url("./img/newyork2.png");
+}
+.bigroad{
+    font-size: 31px;
+    line-height: 40px;
+    color: #403E3B;
+}
+.eightbutton{
+    width: 177px;
+    height: 61px;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    border-radius: 20px;
+    background-color: #1B1A1A;
+    margin-top: 373px;
+    color: #FFFFFF;
+}
+.viewall{
+    width: 240px;
+    height: 61px;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    background-color: #F7F7F7;
+    color: #1B1A1A;
+}
+.newyork{
+    width: 500px;
+    height: 608px;
+}
+.ninepage{
+    display: flex;
+    height: 789px;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+}
+.ninemain{
+    width: 505px;
+    height: 523px;
+}
+.meetour{
+    font-size: 43px;
+    line-height: 51px;
+    color: #403E3B;
+}
+.ninetext{
+    font-size: 20px;
+    line-height: 32px;
+    color: #645C55;
+    padding: 18px 140px 40px 0;
+    width: 477px;
+}
+.ninebutton{
+    width: 161px;
+    height: 61px;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    background-color: #FFFFFF;
+    color: #1B1A1A;
+}
+.acccolumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    height: 523px;
+    gap: 48px;
+}
+.tenpage{
+    display: flex;
+    height: 418px;
+    background-color: #CEC4BC;
+    align-items: center;
+    justify-content: center;
+    gap: 596px;
+}
+.thinkwe{
+    font-size: 53px;
+    line-height: 56px;
+    color: #1B1A1A;
+    width: 759px;
+}
+.tenbutton{
+    width: 193px;
+    height: 61px;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    background-color: #CEC4BC;
+    color: #1B1A1A;
+}
+footer{
+    display: flex;
+    height: 272px;
+    background-color: #F7F7F7;
+    align-items: center;
+    justify-content: center;
+    gap: 925px;
+}
+.logo2{
+    height: 29px;
+    width: 341px;
+}
+.footertext{
+    font-size: 19px;
+    line-height: 27px;
+    color: #645C55;
+}
+.soc {
+    height: 33px;
+    width: 149px;
+    padding-top: 79px;
+}
